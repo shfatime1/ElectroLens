@@ -1,0 +1,26 @@
+# pixi environments
+.pixi/*
+!.pixi/config.toml
+
+# Datasets and generated artifacts
+data/
+*.parquet
+*.npy
+*.index
+*.pkl
+*.tar
+*.jsonl
+*.jsonl.gz
+*.csv
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
